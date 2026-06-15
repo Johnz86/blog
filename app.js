@@ -155,6 +155,7 @@ async function renderArticle() {
     const html = window.marked.parse(prepared);
     content.innerHTML = html;
     rewriteContentLinks(content, article);
+    renderMath(content);
   } catch (error) {
     console.error(error);
     showArticleMessage("This article could not be loaded.");
@@ -272,6 +273,22 @@ function articleUrl(slug) {
     return article.permalink;
   }
   return `./article.html?slug=${encodeURIComponent(slug)}`;
+}
+
+function renderMath(container) {
+  if (!container || typeof window.renderMathInElement !== "function") {
+    return;
+  }
+
+  window.renderMathInElement(container, {
+    delimiters: [
+      { left: "$$", right: "$$", display: true },
+      { left: "$", right: "$", display: false },
+      { left: "\\(", right: "\\)", display: false },
+      { left: "\\[", right: "\\]", display: true },
+    ],
+    throwOnError: false,
+  });
 }
 
 function isAbsoluteUrl(value) {
