@@ -13,8 +13,6 @@ export const ARTICLES = [
     published: "2026-06-15",
     featured: true,
     permalink: "./tiny-court-and-the-urge-to-outsource-judgment.html",
-    coverImage: "./assets/promo-walkthrough.webp",
-    coverAlt: "Tiny Court promo walkthrough showing the courtroom interface and generated court record.",
     sourcePath: "./articles/field-notes-the-urge-to-outsource-judgment.md",
     linkMap: {
       "design-spec.md": "https://github.com/Johnz86/tiny-court/blob/main/docs/design-spec.md",
