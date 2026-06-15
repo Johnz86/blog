@@ -39,6 +39,15 @@ function buildLatestArticle(article) {
   const card = document.createElement("article");
   card.className = "latest-article";
 
+  if (article.coverImage) {
+    const media = document.createElement("img");
+    media.className = "latest-article__image";
+    media.src = article.coverImage;
+    media.alt = article.coverAlt || article.title;
+    media.loading = "eager";
+    card.appendChild(media);
+  }
+
   const kicker = document.createElement("p");
   kicker.className = "latest-article__kicker";
   kicker.textContent = buildMetaLabel(article, true);
