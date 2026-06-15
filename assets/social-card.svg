@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f5f7fa"/>
+  <rect x="64" y="64" width="1072" height="502" rx="28" fill="#ffffff" stroke="#d8dee9" stroke-width="2"/>
+  <rect x="64" y="64" width="1072" height="10" fill="#1f4c7a"/>
+  <text x="112" y="158" fill="#1f4c7a" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="3">WORKING NOTES</text>
+  <text x="112" y="258" fill="#17202b" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-weight="700">Research notes and field reports</text>
+  <text x="112" y="330" fill="#566273" font-family="Arial, Helvetica, sans-serif" font-size="30">AI, systems, research practice</text>
+  <text x="112" y="500" fill="#566273" font-family="Arial, Helvetica, sans-serif" font-size="24">Clean static publishing for GitHub Pages</text>
+</svg>

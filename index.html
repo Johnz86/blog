@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Research notes, essays, and project field reports on AI, systems, and research practice, published as a lightweight static site.">
+    <meta name="robots" content="index,follow">
+    <meta name="theme-color" content="#f5f7fa">
+    <link rel="canonical" href="https://johnz86.github.io/blog/">
+    <meta property="og:site_name" content="Working Notes">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Working Notes">
+    <meta property="og:description" content="Research notes, essays, and project field reports on AI, systems, and research practice.">
+    <meta property="og:url" content="https://johnz86.github.io/blog/">
+    <meta property="og:image" content="https://johnz86.github.io/blog/assets/social-card.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Working Notes">
+    <meta name="twitter:description" content="Research notes, essays, and project field reports on AI, systems, and research practice.">
+    <meta name="twitter:image" content="https://johnz86.github.io/blog/assets/social-card.png">
+    <title>Working Notes</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Working Notes",
+        "description": "Research notes, essays, and project field reports on AI, systems, and research practice.",
+        "url": "https://johnz86.github.io/blog/"
+      }
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" defer src="./app.js"></script>
+  </head>
+  <body data-page="home">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="site-header__inner">
+          <div class="site-brand-group">
+            <a class="site-brand" href="./index.html">Working Notes</a>
+            <p class="site-tagline">Jan Jakubcik Johnz86 · he/him</p>
+          </div>
+          <p class="site-note">KInIT research engineer</p>
+        </div>
+      </header>
+
+      <main class="page page--home">
+        <section class="top-layout">
+          <section class="hero">
+            <p class="eyebrow">Research notes and field reports</p>
+            <h1>Notes where code, systems, and human judgment meet.</h1>
+            <p class="hero-copy">
+              Essays and field notes on AI, algorithmic systems, and the habits that
+              shape them. Small and plain on purpose.
+            </p>
+            <blockquote class="hero-quote">
+              <p>
+                Keystrokes tell of love and logic's dance, In code's realm, dreams get
+                their chance. With coffee and algorithms in a trance, Building worlds in
+                a forward advance
+              </p>
+            </blockquote>
+          </section>
+
+          <section class="article-section article-section--latest">
+            <div class="section-heading">
+              <h2>Latest article</h2>
+              <p id="article-count" class="section-copy"></p>
+            </div>
+            <div id="latest-article" class="latest-slot" aria-live="polite"></div>
+          </section>
+        </section>
+
+        <section class="article-section">
+          <div class="section-heading">
+            <h2>Archive</h2>
+            <p class="section-copy">Previous notes and essays.</p>
+          </div>
+          <div id="archive-list" class="archive-list" aria-live="polite"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>Plain HTML, CSS, and JavaScript for GitHub Pages.</p>
+      </footer>
+    </div>
+  </body>
+</html>
