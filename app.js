@@ -1,4 +1,4 @@
-import { SITE, ARTICLES } from "./articles.js";
+import { SITE, ARTICLES } from "./articles.js?v=20260616-1";
 
 const articleBySlug = new Map(ARTICLES.map((article) => [article.slug, article]));
 
