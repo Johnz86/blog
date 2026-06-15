@@ -173,19 +173,6 @@ img {
   color: var(--ink-muted);
 }
 
-.hero-quote {
-  margin: 1rem 0 0;
-  max-width: 34rem;
-  padding-left: 1rem;
-  border-left: 3px solid var(--rule);
-  color: var(--ink-muted);
-}
-
-.hero-quote p {
-  margin: 0;
-  font-size: 0.95rem;
-}
-
 .eyebrow {
   margin: 0;
   font-size: 0.78rem;
