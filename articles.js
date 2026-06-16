@@ -19,6 +19,17 @@ export const ARTICLES = [
     },
   },
   {
+    slug: "training-small-language-models-on-kinit-infrastructure",
+    title: "Training Small Language Models on KInIT Infrastructure",
+    description:
+      "What one RTX PRO 6000 Blackwell Server Edition VM on KInIT's OpenStack stack is enough to teach, train, and measure.",
+    category: "Infrastructure",
+    published: "2026-06-16",
+    featured: false,
+    permalink: "./training-small-language-models-on-kinit-infrastructure.html",
+    sourcePath: "./articles/training-small-language-models-on-kinit-infrastructure.md",
+  },
+  {
     slug: "competitive-over-automation",
     title: "Competitive Over-Automation and Demand Externalities",
     description:
