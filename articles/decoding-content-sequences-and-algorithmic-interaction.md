@@ -13,3 +13,10 @@ A significant finding challenges the idea that liking a video immediately change
 Perceived quality also relates to novelty. Using Jensen-Shannon divergence to measure how much a session differed from a user's six month history, researchers found that people gave higher ratings to sessions that introduced new topics. Additionally, the order of videos matters. Randomly removing 30 percent of videos from a sequence significantly lowered user engagement, even when the users did not know the sequence had been modified.
 
 Finally, the content vectors proved useful for prediction. A Random Forest model using these vectors predicted whether a user would watch more than 10 percent of a video with 70 percent accuracy. This suggests that the internal characteristics of a video are the primary driver of engagement on the platform.
+
+## Related literature
+
+1. Masood, M., Kannan, S., Liu, Z., Vasisht, D., and Gupta, I. (2026). "Counting How the Seconds Count: Understanding Algorithm-User Interplay in TikTok via ML-driven Analysis of Video Content." *CHI '26*. [https://dl.acm.org/doi/10.1145/3772318.3790311](https://dl.acm.org/doi/10.1145/3772318.3790311)
+2. Masood, M., Kannan, S., Liu, Z., Vasisht, D., and Gupta, I. "Counting How the Seconds Count: Understanding Algorithm-User Interplay in TikTok via ML-driven Analysis of Video Content." arXiv preprint. [https://arxiv.org/abs/2503.20030](https://arxiv.org/abs/2503.20030)
+3. "VideoContentAnalysis_CHI26." GitHub repository. [https://github.com/maleehamasood/VideoContentAnalysis_CHI26](https://github.com/maleehamasood/VideoContentAnalysis_CHI26)
+4. Wu, Y., Wang, C., Li, Z., Zhao, S., Lu, Z., et al. "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding." arXiv preprint. [https://arxiv.org/abs/2306.02858](https://arxiv.org/abs/2306.02858)

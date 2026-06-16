@@ -24,7 +24,7 @@ export const ARTICLES = [
     description:
       "What one RTX PRO 6000 Blackwell Server Edition VM on KInIT's OpenStack stack is enough to teach, train, and measure.",
     category: "Infrastructure",
-    published: "2026-06-16",
+    published: "2026-06-12",
     featured: false,
     permalink: "./training-small-language-models-on-kinit-infrastructure.html",
     sourcePath: "./articles/training-small-language-models-on-kinit-infrastructure.md",
@@ -33,8 +33,9 @@ export const ARTICLES = [
     slug: "competitive-over-automation",
     title: "Competitive Over-Automation and Demand Externalities",
     description:
-      "A short note on automation incentives, aggregate demand, and why firm-level logic can misfire at system scale.",
+      "A short note on automatpion incentives, aggregate demand, and why firm-level logic can misfire at system scale.",
     category: "Economics",
+    published: "2026-06-10",
     featured: false,
     permalink: "./competitive-over-automation.html",
     sourcePath: "./articles/competitive-over-automation.md",
@@ -45,6 +46,7 @@ export const ARTICLES = [
     description:
       "Notes on content embeddings, recommendation sequences, and what platform behavior data does and does not show.",
     category: "Media systems",
+    published: "2026-06-04",
     featured: false,
     permalink: "./decoding-content-sequences-and-algorithmic-interaction.html",
     sourcePath: "./articles/decoding-content-sequences-and-algorithmic-interaction.md",
@@ -55,6 +57,7 @@ export const ARTICLES = [
     description:
       "A compact overview of generative agent modeling, archetypes, and meso-scale social simulation.",
     category: "Research note",
+    published: "2026-06-01",
     featured: false,
     permalink: "./generative-agent-based-modeling.html",
     sourcePath: "./articles/generative-agent-based-modeling.md",
@@ -65,6 +68,7 @@ export const ARTICLES = [
     description:
       "An argument for a deflationary view of language models, centered on training objectives, robustness, and anthropomorphism.",
     category: "AI theory",
+    published: "2026-01-02",
     featured: false,
     permalink: "./the-case-for-deflationism.html",
     sourcePath: "./articles/the-case-for-deflationism.md",
